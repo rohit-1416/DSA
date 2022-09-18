@@ -23,7 +23,7 @@ public class SelectionSort {
 
     public void PrintArray(int arr[]){
         for (int i=0 ;i < arr.length; i++){
-            System.out.println("Sorted Array = "+arr[i]+" ");
+            System.out.print("Sorted Array = "+arr[i]+" ");
         }
     }
 

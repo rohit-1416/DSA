@@ -22,7 +22,6 @@ public class HeightOfTree {
         obj.root.right = new Node(3);
         obj.root.left.left = new Node(4);
         obj.root.left.right = new Node(5);
-
         System.out.println("Height of obj is : " + obj.maxDepth(obj.root));
 
     }

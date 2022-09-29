@@ -13,7 +13,7 @@ package Tree;//Given an array of integers of size ‘n’, Our aim is to calcula
 public class SlidingWindow {
     static int maxSum(int arr[] ,int k){
         int n = arr.length;
-        if (n < k ){
+        if (k > n  ){
             System.out.println("Invalid");
             return 0;
         }
